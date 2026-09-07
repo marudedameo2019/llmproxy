@@ -39,9 +39,9 @@ OpenAI互換APIのみに対応し、一部機能しか対応していません�
 | 項目 | 内容 |
 |------|------|
 | 言語 | JavaScript (ES Modules / `.mjs`) |
-| ランタイム | Node.js (>= 18.17) |
+| ランタイム | Node.js |
 | HTTP サーバー | Node.js 組み込み `http` モジュール |
-| HTTP クライアント | `undici` v6.27.0 |
+| HTTP クライアント | `undici` |
 | 依存関係 | `undici` のみ（フレームワーク不使用） |
 
 ## ディレクトリ構成
