@@ -1,0 +1,17 @@
+{
+  "name": "llmproxy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "start:local": "node index.js -t http://localhost:8080",
+    "start:help": "node index.js --help",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "type": "module",
+  "dependencies": {
+    "undici": "^8.10.2"
+  }
+}

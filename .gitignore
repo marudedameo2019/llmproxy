@@ -1,0 +1,4 @@
+/node_modules/
+/request-*.json
+/response-*.json
+/opencode.json
